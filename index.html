@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="winner">fgg</div>
+    <div class="container">
+        
+      <label for="player0" class="labels">Enter the Player 'O' name:</label>
+      <input
+        type="text"
+        name="playero"
+        id="po"
+        placeholder="Enter player 'O' name"
+      />
+      <label for="playerx" class="labels">Enter the Player 'X' name:</label>
+      <input
+        type="text"
+        name="playerx"
+        id="px"
+        placeholder="Enter player 'X' name"
+      />
+      <button class="funcbtn" id="plybtn">Play</button>
+      <div class="game">
+        <button class="box" disabled="true"></button>
+        <button class="box" disabled="true"></button>
+        <button class="box" disabled="true"></button>
+        <button class="box" disabled="true"></button>
+        <button class="box" disabled="true"></button>
+        <button class="box" disabled="true"></button>
+        <button class="box" disabled="true"></button>
+        <button class="box" disabled="true"></button>
+        <button class="box" disabled="true"></button>
+      </div>
+      <button class="funcbtn" id="rstbtn" disabled="true">New Game</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
